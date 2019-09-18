@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#sudo cp -r /home/pi/Inst/display /home/pi/display
+mkdir /home/pi/.config/autostart
+sudo cp /home/pi/display/display.desktop /home/pi/.config/autostart/display.desktop
+sudo chmod 0777 /home/pi/display/AutoShutdownScreen.py
+sudo chmod a+x /home/pi/display/AutoShutdownScreen.py
+sudo chmod a+x /home/pi/display/display_off
+sudo chmod a+x /home/pi/display/display_on
+
+

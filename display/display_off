@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo cp /home/pi/display/off /sys/class/backlight/rpi_backlight/bl_power

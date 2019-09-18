@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=display
+Exec=sudo python /home/pi/display/AutoShutdownScreen.py
+StartupNotify=false
+Terminal=yes
+Hidden=false
