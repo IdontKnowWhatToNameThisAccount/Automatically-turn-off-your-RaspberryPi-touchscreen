@@ -7,5 +7,6 @@ sudo chmod 0777 /home/pi/display/AutoShutdownScreen.py
 sudo chmod a+x /home/pi/display/AutoShutdownScreen.py
 sudo chmod a+x /home/pi/display/display_off
 sudo chmod a+x /home/pi/display/display_on
-
-
+sudo xset s noblank 
+sudo xset s off 
+sudo xset -dpms
