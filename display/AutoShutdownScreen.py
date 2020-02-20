@@ -2,11 +2,10 @@ import RPi.GPIO as GPIO
 import os
 
 timeTilSleep = 0 # controls the time until the screen turns off.
+inputPin = 11 # here you can control which GPIO pin is used for input. The numbering starts in the top left and goes to the right, then into the next row. Example: Pin 11 is the 6th pin from top in the left row. Pin 4 is the 2nd pin in the right row.
 amt = 0 # just an internal variable, leave it alone please.
 
 GPIO.setmode(GPIO.BOARD)
-
-inputPin = 11 # here you can control which GPIO pin is used for input. The numbering starts in the top left and goes to the right, then into the next row. Example: Pin 11 is the 6th pin from top in the left row. Pin 4 is the 2nd pin in the right row.
 
 GPIO.setup(inputPin,GPIO.IN, pull_up_down = GPIO.PUD_DOWN) 
 
