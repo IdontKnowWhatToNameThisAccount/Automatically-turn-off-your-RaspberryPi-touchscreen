@@ -28,9 +28,3 @@ while True:
         os.system("bash -c \"/home/pi/display/display_off\"")
         print("off")
         time.sleep(1)
-		
-		
-
-	#        .__(.)< (MEOW)
-	#   	  \___)
-	#  (~~~~~~~~~~~~~~~~~)
