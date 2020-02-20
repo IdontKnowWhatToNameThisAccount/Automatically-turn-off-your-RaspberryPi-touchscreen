@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import os
 
 timeTilSleep = 0 # controls the time until the screen turns off.
-amt = 0 # just a internal variable, leave it alone please.
+amt = 0 # just an internal variable, leave it alone please.
 
 GPIO.setmode(GPIO.BOARD)
 
