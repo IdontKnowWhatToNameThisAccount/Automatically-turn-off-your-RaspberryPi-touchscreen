@@ -2,8 +2,6 @@
 
 A simple script to automatically turn off the official 7" RasPi touchscreen after a given amount of time. It can be turned on again by any device that can input through the GPIO pins ( e.g. a button or a motion sensor). Touching the screen to turn it on is not possible with this script, as the touch capabilities also get turned off.
 
-Disclaimer: I am not responsible for bricked devices, dead SD cards, thermonuclear war or you getting fired because your Raspberry Pi died from connecting the wrong pins. Please do some research if you have any concerns about anything in this script or the How-To-Guide.
-
 If you directly connect a 5V GPIO-pin to any other pin, even through a button/switch, it will permanently fry your Raspberry Pi. Don't do that.
 
 
@@ -35,8 +33,6 @@ A PIR motion sensor has 3 pins:
 * VCC: This is the + pin. COnnect it to a +5V pin on the Raspberry Pi
 * GND: This is the Ground pin. It has to be connected to a black ground pin. See the included GPIO pinout image for reference
 * OUT: This pin provides the ouput data. It can be connected to any of the pins that are marked green in the included GPIO pinout image, though this has to be Configured in the scrpipt itself.
-
-A PIR Sensor also has 
 
 
 **Configuration**
